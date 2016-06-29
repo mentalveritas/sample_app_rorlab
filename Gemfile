@@ -36,9 +36,7 @@ group :development, :test do
   gem 'byebug'
   # Use sqlite3 as the database for Active Record
   gem 'sqlite3'
-end
 
-group :development do
   # Access an IRB console on exception pages or by using <%= console %> in views
   gem 'web-console', '~> 2.0'
 
@@ -46,11 +44,11 @@ group :development do
   gem 'spring'
 end
 
-group :test do
-  gem 'minitest-reporters'
-  gem 'mini_backtrace'
-  gem 'guard-minitest'
+group :development do
+
 end
+
+
 
 group :production do
   gem 'pg'
